@@ -54,9 +54,13 @@ console.log(realStrongPassword.includes('@'));
 console.log('');
 
 
+// I am making sure that the password is actually strong by testing the password for common phrases. 
+// A better iteration could be test for... I had an idea to use a loop to test for common phrases
+// I also had an idea to test for common phrases with an API of common passwords? lol
+// So back to my original idea: I could test for common phrases with || for each 
 
 realStrongPassword = 'p@ssword3123'
 
 if (realStrongPassword.startsWith('p@ss') & realStrongPassword.endsWith('123') & realStrongPassword.length <= 12) {
     console.log(`your password: ${realStrongPassword}, is easy to guess. try again.`);
-}
+} else console.log('congratulations. hackers don"t love you');
