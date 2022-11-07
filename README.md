@@ -1,0 +1,1 @@
+I created this repo to document my journey learning Javascript. I also plan on using all the examples from this repo to create short tutorials to share on LinkedIn and other social media networks. 

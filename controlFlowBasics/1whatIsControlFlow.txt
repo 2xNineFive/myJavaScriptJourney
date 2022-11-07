@@ -1,0 +1,9 @@
+control flow is all about the techniques you use to 
+manipulate data. 
+
+ex 1. 
+you can use loops to cycle through arrays and alter them.
+
+ex 2.
+you can use conditionals to test conditions
+
